@@ -36,6 +36,7 @@ public class PlayerScript : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
         }
     }
+    // is grounded nya masih error
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundlayer);
