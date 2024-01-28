@@ -45,7 +45,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacles"))
         {
-            walkspeed -= 1f;
+            walkspeed -= 3f;
             hitobstacle = true;
             Debug.Log("hit");
         }

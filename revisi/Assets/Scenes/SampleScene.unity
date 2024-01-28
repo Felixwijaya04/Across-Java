@@ -343,6 +343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jateng
       objectReference: {fileID: 0}
+    - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -484,7 +488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 766297846}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -715,6 +719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jatim
       objectReference: {fileID: 0}
+    - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -788,6 +796,10 @@ PrefabInstance:
     - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
       propertyPath: m_Name
       value: Jakarta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -956,6 +968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jabar
       objectReference: {fileID: 0}
+    - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1024,6 +1040,10 @@ PrefabInstance:
     - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
       propertyPath: m_Name
       value: Yogyakarta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1349,6 +1369,10 @@ PrefabInstance:
     - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
       propertyPath: m_Name
       value: Banten
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575016480308693442, guid: 6130f070537a0114ea440b2d7c5d777f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
