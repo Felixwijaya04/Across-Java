@@ -142,15 +142,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3651652398877035063, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.6419
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3651652398877035063, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3651652398877035063, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3651652398877035063, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -199,9 +199,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5806862490831197326, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2134941015}
-    - targetCorrespondingSourceObject: {fileID: 5806862490831197326, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2134941014}
     - targetCorrespondingSourceObject: {fileID: 5806862490831197326, guid: e5a2a8a2cd397214a9e2648a1a715a8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2134941013}
@@ -1314,10 +1311,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 1.54
+  radius: 0.9
   height: 2
   canMove: 1
-  maxSpeed: 1.2
+  maxSpeed: 3
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -1337,7 +1334,7 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 1.2
+  pickNextWaypointDist: 1.4
   endReachedDistance: 0.2
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
@@ -1380,7 +1377,7 @@ Transform:
   m_GameObject: {fileID: 455395140}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.62, y: -0.47, z: -7.6063743}
+  m_LocalPosition: {x: -26.49, y: 0.37, z: -7.6063743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1684,7 +1681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAA4Iey2DS2udQIAACgFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxCR9xb61DSA9JmNBOLr4IaY01yJJHkgMkw3/vSraxS7kgv7cf763W/iJC2QqY02ZtBH/WHMj3EfFn8m3Uk09wonuttuITuph3wV3hg2iIeaNOaMRjn2Z1Cc4I9kPtpQ+OEKyVyLUpV3wPqbbOIpxTaQEpo53PVgh9jcgJ/8aJTznjabr0p088JdHogkcGyoHpQ6fT+STB3yJpM+Zt/P0kmUWLZLYaR8uQWSsmaVkB9zb6AvPovuu1CHEKHbYh3g3TUgrbyiPuXAX7Ka1sjeYwgAuKdoOmeHKHQAFiXzhfcJj+mucWXDsNQ88PwuDcmrrkp26GWVJ7aKR9UFn7TotZENXUfP6PHseBzo0un7q2ceRbuEKwwxs9M2rdYNhD+GGgPAzoSOWB7iS8F6Be9NroWnEknal9am1h+tA/Xp2lBbBDjzdSb8C66ife3W13s97DJZg/pVKUO09NZg2wlToMPCwEGLyaXyg4rIttSyDqVfyx8Jvuh3vVEo/CWIdU61J5eTtdGx9KVmFm3k3tUm0UBLgVXYGi0p03WMbd3uANN2h7wzxS/wa1zVuuezFuUgLcx0fRDbXRx+tl2UIfn8EWr7WTQkEv2hMvOKdUK9Us2HAmXdq2Njllg7R9Lfi/q0WSuzm/o8l9HO34ki6n4/lumcdRnCzYYh4vWUzC7gmFPqncNELb8eCtqb64wj3rPiyjtaFVWHZu6HEtPks9GLlQud4yA6BemwpX4WCwCb6WfMUFDmgLzgkV7pt8ZURqdgCeXQtlwenq5AzN+ioZqcSHdh7JSBq+JBnx8HWXNwY+BBx9867YhVz+AlBLAwQUAAAICAAAOCHsB4B/RW0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0kqWxaYpxoqWFoUFSinmiuZGuaZJ5mqGBoaVZspmpoXmyoVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAOCHstg0trnUCAAAoBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAOCHsB4B/RW0AAAB4AAAACQAkAAAAAAAAAAAAAADCAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAHoDAAAAAA==
+    dataString: UEsDBBQAAAgIAAA4IeybZWyxdAIAACkFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxCR9xb61DSA9JmNBOLr4IaY01yJJHkgMkw3/vSraxS7kgv7cf763W/iJC2QqY02ZtBH/WHMj3EfFn8m3Uk09wonuttuITuph3wV3hg2iIeaNOaMRjn2Z1Cc4I9kPtpQ+OEKyVyLUpV3wPqbbOIpxTaQEpo53PVgh9jcgJ/8aJTznjabr0p088JdHogkcGyoHpQ6fT+STB3yJpM+Zt/P0kmUWLZLYaR8uQWSsmaVkB9zb6AvPovuu1CHEKHbYh3g3TUgrbyiPuXAX7Ka1sjeYwgAuKdoOmeHKHQAFiXzhfcJj+mucWXDsNQ88PwuDcmrrkp26GWVJ7aKR9UFn7TotZENXUfP6PHseBzo0un7q2ceRbuEKwwxs9M2rdYNhD+GGgPAzoSOWB7iS8F6Be9NroWnEknal9am1h+tA/Xp2lBbBDjzdSb8C66ife3W13s97DJZg/pVKUO09NZg2wlToMPCwEGLyaXyg4rIttSyDqVfyx8Jvuh3vVEo/CWIdU61J5eTtdGx9KVmFm3k3tUm0UBLgVXYGi0p03WMbd3uANN2h7wzxS/wa1zVuuezFuUgLcx0fRDbXRx+tl2UIfn8EWr7WTQkEv2hMvOKdUK9Us2HAmXdq2Njllg7R9Lfi/q0WSuzm/o8l9HO34ki6n4/lumcdRnCzYYh4vWUzC7gmFPqncNELb8eCtqb64wj3rPiyjtaFVWHZu6HEtPks9FChUrrfMAKjXpsRVORjsgu8lX3GBE9qCc0KFCydfGZGaHYBn155ZsLo6OUOzvkpGKvGhnUcykoZPSUY8fF3mjYEPAUffvCt2IZe/UEsDBBQAAAgIAAA4IewHgH9FbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSpbFpinGipYWhQVKKeaK5ka5pknmaoYGhpVmymamhebKhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAA4IeybZWyxdAIAACkFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAA4IewHgH9FbQAAAHgAAAAJACQAAAAAAAAAAAAAAMECAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAeQMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -3252,39 +3249,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134941010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bb817c92c45acf47b1a1e6f07eb88dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2134941014}
---- !u!50 &2134941014
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134941010}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
+  rb: {fileID: 0}
 --- !u!61 &2134941015
 BoxCollider2D:
   m_ObjectHideFlags: 0
