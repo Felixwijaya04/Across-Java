@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    public float originalspeed = 8f;
     public float walkspeed = 8f;
     public float jumpingpower = 6f;
     public float timer = 4;
@@ -27,7 +26,7 @@ public class PlayerScript : MonoBehaviour
             else
             {
                 timer = 4;
-                walkspeed = originalspeed;
+                walkspeed = 8f;
                 hitobstacle = false;
             }
         }
@@ -61,7 +60,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacles"))
         {
-            walkspeed -= 3f;
+            walkspeed = 5f;
             hitobstacle = true;
             Debug.Log("hit");
         }
