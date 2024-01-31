@@ -53,6 +53,7 @@ public class WordManager : MonoBehaviour
 		{
 			hasActiveWord = false;
 			words.Remove(activeWord);
+			AddWord();
 		}
 	}
 
