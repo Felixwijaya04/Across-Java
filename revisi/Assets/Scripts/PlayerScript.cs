@@ -30,11 +30,12 @@ public class PlayerScript : MonoBehaviour
                 hitobstacle = false;
             }
         }
-        if (Input.GetButtonDown("Jump") && isGrounded())
+        if ((Input.GetKey("l") && Input.GetKey("o") && Input.GetKey("m") && Input.GetKey("p") && Input.GetKey("a") && Input.GetKey("t")) && isGrounded())
         {
             Debug.Log("jump pressed");
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
         }
+        
     }
     // is grounded nya masih error
     private bool isGrounded()
