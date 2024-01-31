@@ -9,6 +9,7 @@ public class PlayerScript : MonoBehaviour
     public float jumpingpower = 6f;
     public float timer = 4;
     private bool hitobstacle = false;
+    private string userInput = "";
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -30,10 +31,20 @@ public class PlayerScript : MonoBehaviour
                 hitobstacle = false;
             }
         }
-        if ((Input.GetKey("l") && Input.GetKey("o") && Input.GetKey("m") && Input.GetKey("p") && Input.GetKey("a") && Input.GetKey("t")) && isGrounded())
+        if (Input.anyKeyDown)
         {
-            Debug.Log("jump pressed");
-            rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
+            // Get the input key
+            char inputKey = Input.inputString.Length > 0 ? Input.inputString[0] : '\0';
+
+            // Append the input key to the user input string
+            userInput += inputKey;
+
+            // Check if the user input matches the desired pause string
+            if (userInput.ToLower() == "lompat" && isGrounded())
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
+                userInput = "";
+            }
         }
         
     }
