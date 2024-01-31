@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class WordManager : MonoBehaviour
 {
-
 	public List<Word> words;
 
 	public SpawnWord wordSpawner;
@@ -14,8 +13,8 @@ public class WordManager : MonoBehaviour
 
     private void Start()
     {
-		AddWord();
-		AddWord();
+		//AddWord();
+		//AddWord();
 		AddWord();
     }
 

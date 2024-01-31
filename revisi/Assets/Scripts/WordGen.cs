@@ -12,4 +12,9 @@ public class WordGen : MonoBehaviour
 
         return word;
     }
+
+    public static string GetLompat()
+    {
+        return "lompat";
+    }
 }

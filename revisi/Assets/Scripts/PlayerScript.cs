@@ -38,16 +38,20 @@ public class PlayerScript : MonoBehaviour
 
             // Append the input key to the user input string
             userInput += inputKey;
-
+            if(userInput[0] != 'l' || userInput[1] != 'o' || userInput[2] != 'm' || userInput[3] != 'p' || userInput[4] != 'a' || userInput[5] != 't')
+            {
+                userInput = "";
+            }
             // Check if the user input matches the desired pause string
             if (userInput.ToLower() == "lompat" && isGrounded())
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
                 userInput = "";
             }
+
         }
-        
-    }
+
+}
     // is grounded nya masih error
     private bool isGrounded()
     {
