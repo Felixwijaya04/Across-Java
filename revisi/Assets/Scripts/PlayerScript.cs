@@ -37,12 +37,12 @@ public class PlayerScript : MonoBehaviour
 
             // Append the input key to the user input string
             userInput += inputKey;
-            if(userInput[0] != 'l' || userInput[1] != 'o' || userInput[2] != 'm' || userInput[3] != 'p' || userInput[4] != 'a' || userInput[5] != 't')
+            if(userInput[0] != 'b' || userInput[1] != 'i' || userInput[2] != 'm' || userInput[3] != 'a')
             {
                 userInput = "";
             }
             // Check if the user input matches the desired pause string
-            if (userInput.ToLower() == "lompat" && isGrounded())
+            if (userInput.ToLower() == "bima" && isGrounded())
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
                 userInput = "";
