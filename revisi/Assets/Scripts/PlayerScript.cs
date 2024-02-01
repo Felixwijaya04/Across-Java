@@ -26,11 +26,11 @@ public class PlayerScript : MonoBehaviour
             else
             {
                 timer = 4;
-                walkspeed = 8f;
+                walkspeed = 6f;
                 hitobstacle = false;
             }
         }
-        if (Input.anyKeyDown)
+        /*if (Input.anyKeyDown)
         {
             // Get the input key
             char inputKey = Input.inputString.Length > 0 ? Input.inputString[0] : '\0';
@@ -48,6 +48,10 @@ public class PlayerScript : MonoBehaviour
                 userInput = "";
             }
 
+        }*/
+        if(Input.GetButtonDown("Jump") && isGrounded())
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
         }
 
 }
