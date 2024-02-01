@@ -14,6 +14,11 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundlayer;
 
+    private void Start()
+    {
+        Physics2D.IgnoreLayerCollision(8, 9);
+    }
+
     void Update()
     {
         rb.velocity = new Vector2(walkspeed, rb.velocity.y);
