@@ -9819,6 +9819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66efb4a2b908c904c8e03816c86b8866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players: {fileID: 977195209}
   words: []
   wordSpawner: {fileID: 361131455}
 --- !u!114 &361131457
@@ -41725,6 +41726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players: {fileID: 977195209}
+  getword: {fileID: 361131456}
   Backgrounds: {fileID: 1111116332}
 --- !u!1 &1744171018
 GameObject:

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WordManager : MonoBehaviour
 {
+	public PlayerScript players;
 	public List<Word> words;
 
 	public SpawnWord wordSpawner;
@@ -15,7 +16,7 @@ public class WordManager : MonoBehaviour
     {
 		//AddWord();
 		//AddWord();
-		AddWord();
+		//AddWord();
     }
 
     public void AddWord()
@@ -53,7 +54,8 @@ public class WordManager : MonoBehaviour
 		{
 			hasActiveWord = false;
 			words.Remove(activeWord);
-			AddWord();
+			players.walkspeed = 8f;
+
 		}
 	}
 
