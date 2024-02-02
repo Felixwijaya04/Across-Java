@@ -14,6 +14,7 @@ public class WallCode : MonoBehaviour
     {
         time = 3;
         Debug.Log("jalan");
+        players.walkspeed = 0;
         getword.AddWord();
         
         while (time > 0) {

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
+    public Animator animator;
     public float walkspeed = 8f;
     public float jumpingpower = 6f;
     public float timer = 4;
@@ -15,14 +16,9 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundlayer;
-
-    private void Start()
+    private void FixedUpdate()
     {
-        Physics2D.IgnoreLayerCollision(8, 9);
-    }
-
-    void Update()
-    {
+        animator.SetFloat("Speed", walkspeed);
         rb.velocity = new Vector2(walkspeed, rb.velocity.y);
         if (hitobstacle == true)
         {
@@ -59,6 +55,7 @@ public class PlayerScript : MonoBehaviour
         if(Input.GetButtonDown("Jump") && isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
+            animator.SetTrigger("JumpButton");
         }
 
 }
