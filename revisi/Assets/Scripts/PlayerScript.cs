@@ -19,6 +19,8 @@ public class PlayerScript : MonoBehaviour
     private void FixedUpdate()
     {
         animator.SetFloat("Speed", walkspeed);
+        animator.SetFloat("SpeedY", rb.velocity.y);
+        animator.SetBool("IsGrounded", isGrounded());
         rb.velocity = new Vector2(walkspeed, rb.velocity.y);
         if (hitobstacle == true)
         {
@@ -56,6 +58,7 @@ public class PlayerScript : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
             animator.SetTrigger("JumpButton");
+            animator.SetFloat("SpeedY", rb.velocity.y); 
         }
 
 }
