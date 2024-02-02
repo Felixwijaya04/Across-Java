@@ -200,6 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -19519,6 +19520,7 @@ MonoBehaviour:
   - {fileID: 2006293343}
   - {fileID: 1388596923}
   - {fileID: 1109495978}
+  anime: {fileID: 977195218}
   wordSpawner: {fileID: 361131455}
 --- !u!114 &361131457
 MonoBehaviour:
@@ -19842,6 +19844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -29850,7 +29853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba790886e642c474488c6739b1c6b439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 977195216}
+  animator: {fileID: 977195218}
   walkspeed: 6
   jumpingpower: 7
   timer: 4
@@ -29926,7 +29929,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.92239094, y: 1.1952324}
   m_Size: {x: 1.5729618, y: 2.276352}
   m_Direction: 0
---- !u!95 &977195216
+--- !u!95 &977195218
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -29936,7 +29939,7 @@ Animator:
   m_GameObject: {fileID: 977195208}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f5ee6ca11f21fbb4b8607d3c7d73ef49, type: 2}
+  m_Controller: {fileID: 9100000, guid: f650151be6afd8e449b93d313ba914f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -29993,6 +29996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -30140,6 +30144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -31135,6 +31140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -36519,6 +36525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -36666,6 +36673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -36813,6 +36821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -36928,6 +36937,7 @@ GameObject:
   - component: {fileID: 1568419750}
   - component: {fileID: 1568419749}
   - component: {fileID: 1568419748}
+  - component: {fileID: 1568419753}
   m_Layer: 3
   m_Name: Ground
   m_TagString: Ground
@@ -80619,6 +80629,27 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &1568419753
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568419746}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5ee6ca11f21fbb4b8607d3c7d73ef49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1599874320
 GameObject:
   m_ObjectHideFlags: 0
@@ -80762,6 +80793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -86030,6 +86062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -86349,6 +86382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -86496,6 +86530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643c47c97923111479da8c51b4333d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anime: {fileID: 977195218}
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
@@ -86770,7 +86805,7 @@ PrefabInstance:
       addedObject: {fileID: 977195215}
     - targetCorrespondingSourceObject: {fileID: 5806862490831197326, guid: 84f6d2fabddf51c4e9d9386a7f1dee8a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 977195216}
+      addedObject: {fileID: 977195218}
   m_SourcePrefab: {fileID: 100100000, guid: 84f6d2fabddf51c4e9d9386a7f1dee8a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

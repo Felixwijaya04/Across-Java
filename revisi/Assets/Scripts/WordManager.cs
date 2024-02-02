@@ -8,6 +8,7 @@ public class WordManager : MonoBehaviour
 	public PlayerScript players;
 	public List<Word> words;
 	public GameObject[] doors;
+	public Animator anime;
 
 	public SpawnWord wordSpawner;
 
@@ -50,6 +51,7 @@ public class WordManager : MonoBehaviour
 		{
 			Debug.Log("done");
 			Destroy(doors[count].GetComponent<BoxCollider2D>());
+			anime.SetBool("InFrontofDoor", false);
 			count++;
             players.walkspeed = 8f;
             hasActiveWord = false;

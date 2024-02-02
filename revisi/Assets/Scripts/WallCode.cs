@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WallCode : MonoBehaviour
 {
+    public Animator anime;
     public EnemyScript enemy;
     public PlayerScript players;
     public WordManager getword;
@@ -13,6 +14,7 @@ public class WallCode : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        anime.SetBool("InFrontofDoor", true);
         time = 3;
         Debug.Log("jalan");
         players.walkspeed = 0;
