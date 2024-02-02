@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -72,6 +74,14 @@ public class PlayerScript : MonoBehaviour
             walkspeed = 4.2f;
             hitobstacle = true;
             Debug.Log("hit");
+        }
+        
+        else if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Lose");
+            Destroy(gameObject);
+            SceneManager.LoadScene("EndingScene");
+            WordGen.wordcount = 0;
         }
     }
 

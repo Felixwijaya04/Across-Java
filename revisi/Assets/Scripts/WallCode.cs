@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class WallCode : MonoBehaviour
 {
+    public EnemyScript enemy;
     public PlayerScript players;
     public WordManager getword;
-    public GameObject Backgrounds;
+    private float time = 3;
     // Update is called once per frame
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        time = 3;
         Debug.Log("jalan");
         getword.AddWord();
-        players.walkspeed = 0f;
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        Debug.Log("aman");
-        Destroy(Backgrounds.GetComponent<SpriteRenderer>());
+        
+        while (time > 0) {
+            enemy.walkspeed = 1f;
+            time -= Time.deltaTime;
+        }
+
+        if (time == 0) enemy.walkspeed = 6f;
     }
 }

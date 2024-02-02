@@ -1,23 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class WordManager : MonoBehaviour
 {
 	public PlayerScript players;
 	public List<Word> words;
+	public GameObject[] doors;
 
 	public SpawnWord wordSpawner;
 
 	private bool hasActiveWord;
 	private Word activeWord;
-
-    private void Start()
-    {
-		//AddWord();
-		//AddWord();
-		//AddWord();
-    }
+	private int count = 0;
 
     public void AddWord()
 	{
@@ -52,10 +48,12 @@ public class WordManager : MonoBehaviour
 
 		if (hasActiveWord && activeWord.Completed())
 		{
-			hasActiveWord = false;
+			Debug.Log("done");
+			Destroy(doors[count].GetComponent<BoxCollider2D>());
+			count++;
+            players.walkspeed = 8f;
+            hasActiveWord = false;
 			words.Remove(activeWord);
-			players.walkspeed = 8f;
-
 		}
 	}
 
