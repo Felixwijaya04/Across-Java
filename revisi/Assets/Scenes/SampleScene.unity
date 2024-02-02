@@ -203,6 +203,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &38363887
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19844,6 +19845,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &778130377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29825,7 +29827,7 @@ Transform:
   m_GameObject: {fileID: 897744024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.167, y: 0.23, z: -2.4013183}
+  m_LocalPosition: {x: 0.934, y: 0.042, z: -2.4013183}
   m_LocalScale: {x: 1, y: 0.3457934, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29994,6 +29996,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1008285202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30140,6 +30143,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1021454457
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30270,6 +30274,7 @@ Transform:
   - {fileID: 1462504210}
   - {fileID: 2057321900}
   - {fileID: 778130375}
+  - {fileID: 1008285200}
   - {fileID: 1744176087}
   - {fileID: 1021454455}
   - {fileID: 1285756624}
@@ -30277,7 +30282,6 @@ Transform:
   - {fileID: 2006293344}
   - {fileID: 1388596924}
   - {fileID: 1109495979}
-  - {fileID: 1008285200}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106446306
@@ -31134,6 +31138,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1109495981
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36517,6 +36522,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1285756626
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36663,6 +36669,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1388596926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36809,6 +36816,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1462504212
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -80757,6 +80765,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!1 &1743107616
 GameObject:
   m_ObjectHideFlags: 0
@@ -86024,6 +86033,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &1744176089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -86342,6 +86352,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &2006293346
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -86488,6 +86499,7 @@ MonoBehaviour:
   enemy: {fileID: 2134941013}
   players: {fileID: 977195209}
   getword: {fileID: 361131456}
+  count: 0
 --- !u!61 &2057321902
 BoxCollider2D:
   m_ObjectHideFlags: 0
