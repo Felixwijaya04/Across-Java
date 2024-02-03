@@ -16,7 +16,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundlayer;
-    private void FixedUpdate()
+    private void Update()
     {
         animator.SetBool("IsGrounded", isGrounded());
         // animator.SetBool("IsGrounded", isGrounded());
@@ -61,7 +61,7 @@ public class PlayerScript : MonoBehaviour
         }
 
 }
-    // is grounded nya masih error
+   
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundlayer);
