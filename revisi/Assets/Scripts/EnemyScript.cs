@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    public float walkspeed = 6f;
+    public float walkspeed = 5f;
     protected float jumpingpower = 6f;
 
-    [SerializeField] private Rigidbody2D rb;
     void Update()
     {
-        rb.velocity = new Vector2(walkspeed, rb.velocity.y);
+        // rb.velocity = new Vector2(walkspeed, rb.velocity.y);
         Physics2D.IgnoreLayerCollision(6, 7);
     }
 
@@ -19,7 +18,7 @@ public class EnemyScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacles"))
         {
             Debug.Log("1");
-            rb.velocity = new Vector2(walkspeed, jumpingpower);
+            // rb.velocity = new Vector2(walkspeed, jumpingpower);
         }
     }
 }

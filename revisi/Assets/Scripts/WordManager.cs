@@ -9,6 +9,7 @@ public class WordManager : MonoBehaviour
 	public List<Word> words;
 	public GameObject[] doors;
 	public Animator anime;
+	public Animator[] door;
 
 	public SpawnWord wordSpawner;
 
@@ -50,10 +51,11 @@ public class WordManager : MonoBehaviour
 		if (hasActiveWord && activeWord.Completed())
 		{
 			Debug.Log("done");
+			door[count].SetTrigger("DoorDestroyed");
 			Destroy(doors[count].GetComponent<BoxCollider2D>());
 			anime.SetTrigger("DoorDestroyed");
 			count++;
-            players.walkspeed = 8f;
+            players.walkspeed = 5f;
             hasActiveWord = false;
 			words.Remove(activeWord);
 		}

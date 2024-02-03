@@ -17,18 +17,18 @@ public class WallCode : MonoBehaviour
         anime.SetTrigger("InFrontofDoor");
         time = 3;
         Debug.Log("jalan");
-        players.walkspeed = 0;
+        players.walkspeed = 0f;
         if(count == 0)
         {
             getword.AddWord();
             count = 1;
         }
         
-        while (time > 0) {
-            enemy.walkspeed = 1f;
-            time -= Time.deltaTime;
-        }
+        //while (time > 0) {
+          //  enemy.walkspeed = 3f;
+          //  time -= Time.deltaTime;
+        //}
 
-        if (time == 0) enemy.walkspeed = 6f;
+        //if (time == 0) enemy.walkspeed = 6f;
     }
 }

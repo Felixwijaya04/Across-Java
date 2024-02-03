@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
     public Animator animator;
-    public float walkspeed = 8f;
-    public float jumpingpower = 6f;
+    public float walkspeed = 7f;
+    public float jumpingpower = 3.5f;
     public float timer = 4;
     private bool hitobstacle = false;
     private string userInput = "";
@@ -16,10 +16,18 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundlayer;
-    private void Update()
+
+    private void FixedUpdate()
     {
         animator.SetBool("IsGrounded", isGrounded());
-        // animator.SetBool("IsGrounded", isGrounded());
+        if (Input.GetButtonDown("Jump") && isGrounded())
+        {
+            animator.SetFloat("IsJumping", rb.velocity.y);
+        }
+    }
+
+    private void Update()
+    {
         rb.velocity = new Vector2(walkspeed, rb.velocity.y);
         if (hitobstacle == true)
         {
@@ -34,33 +42,12 @@ public class PlayerScript : MonoBehaviour
                 hitobstacle = false;
             }
         }
-        /*if (Input.anyKeyDown)
-        {
-            // Get the input key
-            char inputKey = Input.inputString.Length > 0 ? Input.inputString[0] : '\0';
-
-            // Append the input key to the user input string
-            userInput += inputKey;
-            if(userInput[0] != 'b' || userInput[1] != 'i' || userInput[2] != 'm' || userInput[3] != 'a')
-            {
-                userInput = "";
-            }
-            // Check if the user input matches the desired pause string
-            if (userInput.ToLower() == "bima" && isGrounded())
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
-                userInput = "";
-            }
-
-        }*/
-        if(Input.GetButtonDown("Jump") && isGrounded())
+        if (Input.GetButtonDown("Jump") && isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingpower);
-            animator.SetFloat("IsJumping", rb.velocity.y);
             Debug.Log(rb.velocity.y);
         }
-
-}
+    }
    
     private bool isGrounded()
     {

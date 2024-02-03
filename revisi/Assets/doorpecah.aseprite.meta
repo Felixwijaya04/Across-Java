@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: c41140f6f8e41fe40aa575d37ce420f6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: doorpecah_Frame_0
+    originalName: 
+    pivot: {x: 0.6363636, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 80
+      width: 11
+      height: 90
+    spriteID: 0678f3941a95c8b4393f169177688a2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 80}
+  - name: doorpecah_Frame_1
+    originalName: 
+    pivot: {x: 0.6363636, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 4
+      width: 11
+      height: 90
+    spriteID: 46689285034fded4f9a247412b9d7d34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 4}
+  - name: doorpecah_Frame_2
+    originalName: 
+    pivot: {x: 0.6363636, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 102
+      width: 11
+      height: 90
+    spriteID: 11a4c6d31c29b1d4c866511be84222ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 102}
+  - name: doorpecah_Frame_3
+    originalName: 
+    pivot: {x: 0.6363636, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 4
+      width: 11
+      height: 90
+    spriteID: 3136faf6c6b798a4789d89ecc8ce746a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 4}
+  - name: doorpecah_Frame_4
+    originalName: 
+    pivot: {x: 0.6363636, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 102
+      width: 11
+      height: 90
+    spriteID: 496f3848d24a6cb4b93e44d3fdbb1303
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 102}
+  - name: doorpecah_Frame_5
+    originalName: 
+    pivot: {x: 0.6363636, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 4
+      width: 11
+      height: 90
+    spriteID: 358e2a79571041c48af608516d67eff2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 4}
+  - name: doorpecah_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 14
+      height: 90
+    spriteID: 918c17fa0f4b48342b4637d0bb83e0e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 80}
+  - name: doorpecah_Frame_7
+    originalName: 
+    pivot: {x: 0.33333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 103
+      width: 21
+      height: 90
+    spriteID: 7d11c240cbc7aaa40b84f95dddc766d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 103}
+  - name: doorpecah_Frame_8
+    originalName: 
+    pivot: {x: 0.1891892, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 4
+      width: 37
+      height: 91
+    spriteID: 6313eb055b2c0cf40af76a33f6cba855
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 4}
+  - name: doorpecah_Frame_9
+    originalName: 
+    pivot: {x: 0.17948718, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 39
+      height: 96
+    spriteID: 1e25205556bac404bae703d78ef18625
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: doorpecah_Frame_10
+    originalName: 
+    pivot: {x: 0.17948718, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 39
+      height: 96
+    spriteID: 2dc8d22dcd4ad3a41861dcd8d43ab428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: doorpecah_Frame_11
+    originalName: 
+    pivot: {x: 0.17948718, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 4
+      width: 39
+      height: 68
+    spriteID: 91125a4d6708a2a48a32918d4dc2a722
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 419026221
+    name: doorpecah
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: doorpecah_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 25
+        y: 0
+        width: 11
+        height: 90
+      spriteId: 0678f3941a95c8b4393f169177688a2a
+    - name: doorpecah_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 0
+        width: 11
+        height: 90
+      spriteId: 46689285034fded4f9a247412b9d7d34
+    - name: doorpecah_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 25
+        y: 0
+        width: 11
+        height: 90
+      spriteId: 11a4c6d31c29b1d4c866511be84222ea
+    - name: doorpecah_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 25
+        y: 0
+        width: 11
+        height: 90
+      spriteId: 3136faf6c6b798a4789d89ecc8ce746a
+    - name: doorpecah_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 25
+        y: 0
+        width: 11
+        height: 90
+      spriteId: 496f3848d24a6cb4b93e44d3fdbb1303
+    - name: doorpecah_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 0
+        width: 11
+        height: 90
+      spriteId: 358e2a79571041c48af608516d67eff2
+    - name: doorpecah_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 0
+        width: 14
+        height: 90
+      spriteId: 918c17fa0f4b48342b4637d0bb83e0e9
+    - name: doorpecah_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 0
+        width: 21
+        height: 90
+      spriteId: 7d11c240cbc7aaa40b84f95dddc766d5
+    - name: doorpecah_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 0
+        width: 37
+        height: 91
+      spriteId: 6313eb055b2c0cf40af76a33f6cba855
+    - name: doorpecah_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 0
+        width: 39
+        height: 96
+      spriteId: 1e25205556bac404bae703d78ef18625
+    - name: doorpecah_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 0
+        width: 39
+        height: 96
+      spriteId: 2dc8d22dcd4ad3a41861dcd8d43ab428
+    - name: doorpecah_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 25
+        y: 0
+        width: 39
+        height: 68
+      spriteId: 91125a4d6708a2a48a32918d4dc2a722
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 96}

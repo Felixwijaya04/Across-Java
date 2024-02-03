@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class button_script : MonoBehaviour
 {
     //From Main Menu UI
     public void PlayButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Opening");
     }
     public void TutButton()
     {
