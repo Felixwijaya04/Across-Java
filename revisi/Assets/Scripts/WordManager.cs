@@ -51,7 +51,7 @@ public class WordManager : MonoBehaviour
 		{
 			Debug.Log("done");
 			Destroy(doors[count].GetComponent<BoxCollider2D>());
-			anime.SetBool("InFrontofDoor", false);
+			anime.SetTrigger("DoorDestroyed");
 			count++;
             players.walkspeed = 8f;
             hasActiveWord = false;

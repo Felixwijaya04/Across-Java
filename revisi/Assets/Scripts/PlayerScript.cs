@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     private void FixedUpdate()
     {
         animator.SetBool("IsGrounded", isGrounded());
+        // animator.SetBool("IsGrounded", isGrounded());
         rb.velocity = new Vector2(walkspeed, rb.velocity.y);
         if (hitobstacle == true)
         {

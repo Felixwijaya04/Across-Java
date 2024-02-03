@@ -14,7 +14,7 @@ public class WallCode : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        anime.SetBool("InFrontofDoor", true);
+        anime.SetTrigger("InFrontofDoor");
         time = 3;
         Debug.Log("jalan");
         players.walkspeed = 0;
